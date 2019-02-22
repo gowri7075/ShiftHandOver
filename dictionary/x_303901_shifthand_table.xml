@@ -8,8 +8,9 @@
             </choice>
         </element>
         <element label="Duration" max_length="40" name="u_glide_date_time_3" type="glide_date_time"/>
-        <element label="To" max_length="32" name="u_reference_2" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element label="To" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="From" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Remarks" max_length="40" name="u_string_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Pending Action" max_length="120" name="u_string_4" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="40" name="u_string_6" type="string"/>
         <index name="index">
