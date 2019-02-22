@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_string_1" label="From" language="en" table="x_303901_shifthand_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <help/>
+            <hint/>
+            <label>From</label>
+            <language>en</language>
+            <name>x_303901_shifthand_table</name>
+            <plural>Froms</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-22 05:49:59</sys_created_on>
+            <sys_id>cb48749ddb3323001ee29fd2ca9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>From</sys_name>
+            <sys_package display_value="ShiftHandOver" source="x_303901_shifthand">7a87f85ddb3323001ee29fd2ca96197e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ShiftHandOver">7a87f85ddb3323001ee29fd2ca96197e</sys_scope>
+            <sys_update_name>sys_documentation_x_303901_shifthand_table_u_string_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-22 05:49:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
