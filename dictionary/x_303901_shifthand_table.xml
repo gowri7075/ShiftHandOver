@@ -1,20 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Table" max_length="40" name="x_303901_shifthand_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="On Call" max_length="40" name="u_choice_11" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Assign Shift" max_length="40" name="u_choice_14" type="string">
+            <choice>
+                <element label="Shift 1" sequence="0" value="shift 1"/>
+                <element label="Shift 2" sequence="1" value="shift 2"/>
+                <element label="Shift 3" sequence="2" value="shift 3"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" default="yes" label="On Call" max_length="40" name="u_choice_5" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="yes"/>
                 <element label="No" sequence="1" value="no"/>
             </choice>
         </element>
-        <element label="Duration" max_length="40" name="u_glide_date_time_3" type="glide_date_time"/>
+        <element label="Out Time" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element label="Time" max_length="40" name="u_glide_date_time_13" type="glide_date_time"/>
+        <element label="In Time" max_length="40" name="u_glide_date_time_3" type="glide_date_time"/>
         <element label="To" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+        <element label="To" max_length="32" name="u_reference_9" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="From" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Remarks" max_length="40" name="u_string_10" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="120" name="u_string_12" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Remarks" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="In Time" max_length="40" name="u_string_3" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Pending Action" max_length="120" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Out Time" max_length="40" name="u_string_5" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pending Action" max_length="40" name="u_string_7" type="string"/>
         <index name="index">
             <element name="u_reference_2"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_9"/>
         </index>
     </element>
 </database>
