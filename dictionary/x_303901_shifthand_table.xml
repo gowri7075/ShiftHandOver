@@ -29,9 +29,9 @@
         <element attributes="edge_encryption_enabled=true" label="Remarks" max_length="40" name="u_string_10" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="120" name="u_string_12" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Remarks" max_length="40" name="u_string_2" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="In Time" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="In Time" max_length="40" name="u_string_3" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Pending Action" max_length="120" name="u_string_4" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Out Time" max_length="40" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Out Time" max_length="40" name="u_string_5" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="40" name="u_string_6" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Pending Action" max_length="40" name="u_string_7" type="string"/>
         <index name="index">
